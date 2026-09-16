@@ -1,0 +1,34 @@
+<dam>
+    <modulo>
+        <titulo>Lenguajes de Marcas</titulo>
+        <contenido>
+            <unidad>Introducción</unidad>
+            <unidad>HTML</unidad>
+            <unidad>CSS</unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <titulo>Programación</titulo>
+        <contenido>
+            <unidad>Estructuras de control</unidad>
+            <unidad>Programación orientada a objetos</unidad>
+            <unidad>Colecciones y estructuras de datos</unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <titulo>Bases de Datos</titulo>
+        <contenido>
+            <unidad>Modelo Entidad-Relación</unidad>
+            <unidad>SQL DDL y DML</unidad>
+            <unidad>Procedimientos y disparadores</unidad>
+        </contenido>
+    </modulo>
+    <modulo>
+        <titulo>Sistemas Informáticos</titulo>
+        <contenido>
+            <unidad>Gestión de hardware y SO</unidad>
+            <unidad>Configuración de redes locales</unidad>
+            <unidad>Administración básica de servidores</unidad>
+        </contenido>
+    </modulo>
+</dam>

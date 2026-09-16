@@ -1,0 +1,28 @@
+<biblioteca>
+    <libro>
+        <titulo>Falcó</titulo>
+        <formato>En papel</formato>
+        <isbn>9788420419688</isbn>
+        <autor>Arturo Pérez-Reverte</autor>
+        <paginas>296</paginas>
+        <editorial>Alfaguara</editorial>
+        <idioma>Castellano</idioma>
+    </libro>
+    <libro>
+        <titulo>Todo Alatriste</titulo>
+        <formato>Ebook</formato>
+        <isbn>9788420425528</isbn>
+        <autor>Arturo Pérez-Reverte</autor>
+        <editorial>Alfaguara</editorial>
+        <idioma>Castellano</idioma>
+    </libro>
+    <libro>
+        <titulo>Hombres buenos</titulo>
+        <formato>En papel</formato>
+        <isbn>9788466329804</isbn>
+        <autor>Arturo Pérez-Reverte</autor>
+        <editorial>Punto de Lectura</editorial>
+        <año>2024</año>
+        <sinopsis>La heroica aventura de quienes se atrevieron a cambiar el mundo con libros. En tiempos de oscuridad siempre hubo hombres buenos que lucharon para llevar las luces y el progreso. Y otros que procuraron impedirlo.</sinopsis>
+    </libro>
+</biblioteca>
