@@ -17,7 +17,7 @@
 
 ## Ejercicio 2: Estructuración de módulos de DAM (`DAM.sgml`)
 
-```xml
+```
 <dam>
     <modulo>
         <titulo>Lenguajes de Marcas</titulo>
