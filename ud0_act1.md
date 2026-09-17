@@ -1,7 +1,3 @@
-# Unidad 0 - Actividad 1: Introducción a los Lenguajes de Marcas
-
-**Módulo:** Lenguajes de marcas y sistemas de gestión de información  
-**Curso:** 1º CFGS  
 **Nombre** Samuel Piqueras Blanco
 
 ---
