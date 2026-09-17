@@ -18,7 +18,7 @@
 ## Ejercicio 2: Estructuración de módulos de DAM (`DAM.sgml`)
 
 ```
-<dam>
+<asix>
     <modulo>
         <titulo>Lenguajes de Marcas</titulo>
         <contenido>
@@ -28,11 +28,11 @@
         </contenido>
     </modulo>
     <modulo>
-        <titulo>Programación</titulo>
+        <titulo>Fundamentos de Hardware</titulo>
         <contenido>
-            <unidad>Estructuras de control</unidad>
-            <unidad>Programación orientada a objetos</unidad>
-            <unidad>Colecciones y estructuras de datos</unidad>
+            <unidad>Código ASCII</unidad>
+            <unidad>Historia de la Informática</unidad>
+            <unidad>Montaje y mantenimiento de Sistemas Informáticos/unidad>
         </contenido>
     </modulo>
     <modulo>
@@ -44,11 +44,11 @@
         </contenido>
     </modulo>
     <modulo>
-        <titulo>Sistemas Informáticos</titulo>
+        <titulo>Administración de redes</titulo>
         <contenido>
-            <unidad>Gestión de hardware y sistemas operativos</unidad>
-            <unidad>Configuración de redes locales</unidad>
-            <unidad>Administración de servidores</unidad>
+            <unidad>Capa física</unidad>
+            <unidad>Capa de red</unidad>
+            <unidad>Subnetting</unidad>
         </contenido>
     </modulo>
 </dam>
