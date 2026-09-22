@@ -1,4 +1,4 @@
-**Nombre** Samuel Piqueras Blanco
+**Nombre:** Samuel Piqueras Blanco
 
 ---
 
