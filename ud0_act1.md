@@ -106,7 +106,7 @@
 
 ---
 
-## Ejercicio 4: Estructuración semántica de catálogo de libros
+## Ejercicio 4: Estructuración de catálogo de libros
 
 ### Vocabulario
 `biblioteca`, `libro`, `titulo`, `formato`, `isbn`, `autor`, `paginas`, `editorial`, `año`, `idioma`, `sinopsis`.
