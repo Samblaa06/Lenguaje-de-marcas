@@ -15,7 +15,7 @@
 
 ---
 
-## Ejercicio 2: Estructuración de módulos de DAM (`DAM.sgml`)
+## Ejercicio 2: Estructuración de módulos de ASIX (`ASIX.sgml`)
 
 ### Vocabulario
 `asix`, `modulo`, `titulo`, `contenido`, `unidad`,
