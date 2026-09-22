@@ -59,7 +59,7 @@
 
 ---
 
-## Ejercicio 3: Documento SGML para "Países del Mundo"
+## Ejercicio 3: Documento SGML Países del Mundo
 
 ### Vocabulario
 `paises`, `pais`, `nombre`, `capital`, `continente`, `idiomas`, `idioma`.
