@@ -1,0 +1,18 @@
+Error 1: La etiqueta DOCTYPE en la palabra "htm" le falta una L para hacer bien el tipo de documento HTML.
+
+Error 2: En la segunda línea falta por completar la palabra "lang".
+
+Error 3: Falta las etiqueta metas
+
+Error 4: En title falta cerrar la etiqueta y tabularla.
+
+Error 5: La etiqueta de Contacto estaba mal cerrada haciendo que todo se vea en negrita.
+
+Error 6 En la línea 10 se cierra antes el párrafo que la fuente negrita.
+
+Error 7 El párrafo del horario de atención no tiene la etiqueta de cierre.
+
+Error 8 No se han cerrado las etiquetas <li>.
+
+
+
