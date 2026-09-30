@@ -1,0 +1,3 @@
+Error 1: La etiqueta DOCTYPE en la palabra "htm" le falta una L para hacer bien el tipo de documento HTML.
+
+Error 2: En la segunda línea falta por completar la palabra "lang"
