@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4 - Tabla de datos</title>
+    <style>
+        table {
+            border-collapse: separate;
+            border-spacing: 6px;
+            empty-cells: hide;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        caption {
+            caption-side: bottom;
+        }
+        .arriba {
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Listado de productos en stock</caption>
+
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3" class="arriba">Hardware</td>
+                <td>Memoria RAM</td>
+                <td>10</td>
+                <td>40 €</td>
+            </tr>
+            <tr>
+                <td>Disco SSD</td>
+                <td>5</td>
+                <td>70 €</td>
+            </tr>
+            <tr>
+                <td>Tarjeta Gráfica</td>
+                <td>2</td>
+                <td>300 €</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="arriba">Periféricos</td>
+                <td>Teclado</td>
+                <td>15</td>
+                <td>25 €</td>
+            </tr>
+            <tr>
+                <td>Ratón</td>
+                <td>20</td>
+                <td>15 €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="2"><strong>Total</strong></td>
+                <td><strong>450 €</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
