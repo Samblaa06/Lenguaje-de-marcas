@@ -1,0 +1,20 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(192, 192, 0);
+}
+
+h2 {
+    color: green;
+}
+
+p{
+    text-align: justify;
+}
+
+/* 
+   Comentario Requisito 4: 
+   Mover el selector universal al final no cambia los colores o la alineación de h1, h2 o p,
+   debido a que los selectores de tipo (h1, h2, p) tienen mayor especificidad que el selector universal (*).
