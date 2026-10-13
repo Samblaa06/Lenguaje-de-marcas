@@ -1,0 +1,13 @@
+.corp {
+  color: #1a5276;
+  font-family: Arial, sans-serif;
+}
+a[target] {
+  color: #e67e22;
+  font-weight: bold;
+}
+p[class] {
+  background-color: #f4f6f7;
+  border-left: 4px solid #2ecc71;
+  padding: 8px 12px;
+}
