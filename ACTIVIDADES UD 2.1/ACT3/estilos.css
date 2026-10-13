@@ -1,0 +1,20 @@
+/* Requisito 1: Selector de descendientes para el <em> dentro de <h1> en naranja */
+h1 em {
+    color: orange;
+}
+
+li p {
+    color: #6a0000;
+}
+
+.comentarios p {
+    border-left: 4px solid #333;
+}
+p.especial {
+    font-weight: bold;
+    color: darkgreen;
+}
+.especial {
+    font-weight: bold;
+    color: darkgreen;
+}
