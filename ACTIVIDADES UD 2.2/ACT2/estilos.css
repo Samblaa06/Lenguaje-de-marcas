@@ -1,0 +1,4 @@
+ul {
+    list-style: square inside url("img/catmeme.png");
+    /* La diferencia es que con outside la viñeta queda fuera del texto y las líneas siguientes se alinean entre sí, mientras que con inside la viñeta se integra dentro del texto y la segunda línea se alinea debajo de la viñeta.*/
+}
