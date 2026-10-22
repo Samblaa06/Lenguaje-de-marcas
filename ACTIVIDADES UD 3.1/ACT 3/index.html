@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjetas y overflow</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <section>
+    <h2>Parte A: Etiqueta sobre la tarjeta</h2>
+    <article class="tarjeta tarjeta-visible">
+      <span class="etiqueta">-20%</span>
+      <div class="foto">Imagen del producto</div>
+      <h3>Auriculares inalámbricos</h3>
+      <p class="precio"><del>49,99 €</del> <strong>39,99 €</strong></p>
+      <p>Sonido claro y cómodos para el uso diario.</p>
+    </article>
+
+    <h3>Prueba con overflow: hidden</h3>
+    <article class="tarjeta tarjeta-oculta">
+      <span class="etiqueta">-20%</span>
+      <div class="foto">Imagen del producto</div>
+      <h3>iPhone 17 modelo base</h3>
+      <p class="precio"><del>920€</del><strong>865€</strong></p>
+      <p>Autonomía para todo un día sin complicaciones y con una alta tasa de refresco 120Hz</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Parte B: Caja de comentarios</h2>
+    <div class="comentarios">
+      <p>Comentario 1: Muy buen producto.</p>
+      <p>Comentario 2: La entrega fue rápida.</p>
+      <p>Comentario 3: La calidad fabulosa.</p>
+      <p>Comentario 4: Funciona como esperaba.</p>
+      <p>Comentario 5: Buen precio para lo que es.</p>
+      <p>Comentario 6: Lo recomendaría.</p>
+      <p>Comentario 7: Volvería a comprarlo.</p>
+      <p>Comentario 8: Fácil de utilizar.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Parte C: visibility y display</h2>
+    <div class="fila-tarjetas">
+      <article class="tarjeta mini tarjeta-visibility">
+        <h3>Tarjeta A</h3>
+        <p>Tiene visibility: hidden.</p>
+      </article>
+      <article class="tarjeta mini tarjeta-display">
+        <h3>Tarjeta B</h3>
+        <p>Tiene display: none.</p>
+      </article>
+      <article class="tarjeta mini">
+        <h3>Tarjeta C</h3>
+        <p>Tarjeta visible para comparar los espacios.</p>
+      </article>
+    </div>
+  </section>
+</body>
+</html>
