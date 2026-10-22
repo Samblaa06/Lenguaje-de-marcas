@@ -1,0 +1,60 @@
+p::first-letter {
+  font-size: 2em;
+  color: #af0101;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+::selection {
+  background-color: #e48cff;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "✔ ";
+  color: green;
+  margin-right: 8px;
+}
+
+a[target="_blank"]::after {
+  font-size: 0.9em;
+  color: #cc0101;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #b30000;
+  margin-top: 5px;
+}
+
+.tooltip {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dashed #b30000;
+}
+
+.tooltip:hover::after {
+  content: attr(data-ayuda);
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 0.85em;
+  z-index: 10;
+}
