@@ -1,0 +1,44 @@
+form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+input:focus {
+  background-color: #e8f0fe;
+  outline: none;
+}
+
+input:required {
+  border-left: 4px solid red;
+}
+
+input:read-only {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+input:disabled {
+  background-color: #f5f5f5;
+  color: #aaa;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+input:checked + label {
+  font-weight: bold;
+  color: green;
+}
+
+input:hover:focus {
+  background-color: #d1e7dd;
+}
