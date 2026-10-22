@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:not(:first-child):hover {
+  background-color: #ffff99;
+}
+
+li:nth-child(3n+1) {
+  color: #d9534f;
+}
+
+li:nth-child(3) {
+  font-weight: bold;
+}
