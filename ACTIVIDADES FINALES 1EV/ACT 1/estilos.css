@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: aliceblue; 
+    color: 333333;
+}
+
+header, nav, footer {
+    background-color: rgb(187, 187, 187);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70px;
+    width: auto;
+}
+
+.logo-left {
+    left: 30px;
+}
+
+.logo-right {
+    right: 30px;
+}
+
+header h1 {
+    color: #500000;
+}
+
+header h2 {
+    color: #004d25;
+}
+
+nav {
+    text-align: center;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    margin: 0 15px;
+    padding: 5px 8px;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    color: #ff0000;
+    border-top: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+}
+
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0; 
+    padding: 10px 0;
+}
+
+article {
+    display: inline-block;
+    width: 32.33%;
+    margin: 0.5%;
+    padding: 25px 20px;
+    min-height: 200px;
+    font-size: 0.80rem;
+}
+
+.contenido {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.icono {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.icono:hover {
+    transform: scale(1.2);
+}
+
+.texto h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #111111;
+    font-weight: 700;
+}
+
+article:nth-child(1) {
+    background-color: rgba(154, 183, 247, 0.5); /* Facebook */
+}
+
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5); /* Twitter */
+}
+
+article:nth-child(3) {
+    background-color: rgba(208, 61, 107, 0.5); /* Youtube */
+}
+
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5); /* Linkedin */
+}
+
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5); /* Instagram */
+}
+
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5); /* Pinterest */
+}
+        
+footer {
+    text-align: center;
+    padding: 20px 0 15px 0;
+    margin-top: 10px;
+}
+
+.pie img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.pie img:hover {
+    transform: scale(1.25);
+}
