@@ -1,0 +1,235 @@
+body {
+    background-color: #e9efe9;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+#contenedor {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    background-color: #2f5d46;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    margin: 10px 0 0 0;
+    font-size: 1.1em;
+}
+
+#temporada {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 84px;
+    height: 84px;
+    background-color: #f08a24;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px; 
+    font-weight: bold;
+}
+
+nav {
+    background-color: #2f5d46;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f08a24;
+}
+
+
+section {
+    padding: 30px 40px;
+}
+
+section h2 {
+    color: #2f5d46;
+    border-bottom: 2px solid #2f5d46;
+    padding-bottom: 5px;
+}
+
+
+.tarjetas-container {
+    text-align: center; 
+}
+
+.tarjeta {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 10px;
+}
+
+.tarjeta-central {
+    position: relative;
+    top: 2px;
+}
+
+.foto-tarjeta {
+    height: 150px;
+    position: relative; 
+    overflow: hidden;   
+}
+
+.color-1 { background-color: #8fb996; }
+.color-2 { background-color: #a7c5d9; }
+.color-3 { background-color: #e5c07b; }
+
+.etiqueta-nivel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f08a24;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 0.85em;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.info-tarjeta {
+    padding: 15px;
+}
+
+.info-tarjeta h3 {
+    margin-top: 0;
+    color: #2f5d46;
+}
+
+.galeria-container {
+    position: relative;
+    height: 320px;
+    margin-top: 20px;
+}
+
+.polaroid {
+    position: absolute;
+    width: 280px;
+    height: 210px;
+    background-color: #fff;
+    border: 6px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.polaroid-1 {
+    top: 20px;
+    left: 80px;
+    transform: rotate(-4deg);
+}
+
+.polaroid-2 {
+    top: 50px;
+    left: 310px;
+    z-index: 10;
+}
+
+.polaroid-3 {
+    top: 20px;
+    left: 550px;
+    transform: rotate(4deg);
+}
+
+.foto-polaroid {
+    width: 100%;
+    height: 160px;
+}
+
+.polaroid p {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.polaroid:hover {
+    z-index: 100;
+    transform: scale(1.03) rotate(0deg);
+}
+
+.opiniones {
+    height: 170px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 10px 15px;
+}
+
+.opiniones article {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.opiniones article:last-child {
+    border-bottom: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+#subir {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f08a24;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    z-index: 2000;
+}
+
+#subir:hover {
+    background-color: #d6771d;
+}
