@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-dark: #0d0a1a;
+  --bg-sidebar: #090714;
+  --bg-header: #21193d;
+  --text-color: #ffffff;
+  --text-muted: #b3b3c3;
+  --accent-pink: #ff4f81;
+  --accent-cyan: #38e1d0;
+  --sidebar-width: 200px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--sidebar-width);
+  height: 100vh;
+  background-color: var(--bg-sidebar);
+  padding: 2rem 1.5rem;
+  z-index: 100;
+}
+
+nav p {
+  color: var(--accent-pink);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-bottom: 1.2rem;
+}
+
+nav ul li a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+  color: var(--accent-cyan);
+}
+
+main {
+  margin-left: var(--sidebar-width); 
+  min-height: 100vh;
+}
+
+header#inicio {
+  position: relative;
+  height: 300px;
+  background-color: var(--bg-header);
+  border-bottom: 1px solid var(--accent-cyan);
+}
+
+.portada {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.portada h1 {
+  color: var(--accent-cyan);
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.portada p {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+section {
+  padding: 2rem 2rem 3rem 2rem;
+}
+
+section h2 {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-dark);
+  color: var(--accent-cyan);
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  z-index: 10;
+  border-bottom: 1px solid rgba(56, 225, 208, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+.horario {
+  list-style: none;
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.horario::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background-color: var(--accent-pink);
+}
+
+.horario li {
+  position: relative;
+  margin-bottom: 1.2rem;
+  font-size: 0.95rem;
+}
+
+.horario li::before {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: var(--accent-cyan);
+  border-radius: 50%;
+  left: calc(-2rem + 3px); /* Centrado sobre la línea de 2px */
+}
+
+.horario li strong {
+  color: var(--accent-pink);
+  margin-right: 0.8rem;
+}
+
+.cartel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.cartel span {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--accent-pink);
+  border-radius: 20px;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+.cartel span:first-child {
+  background-color: var(--accent-pink);
+  color: #fff;
+  font-weight: bold;
+}
+
+.faq {
+  height: 170px;
+  overflow-y: auto;
+  border: 1px solid var(--accent-cyan);
+  padding: 1.2rem;
+  border-radius: 4px;
+}
+
+.faq p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.faq p:last-child {
+  margin-bottom: 0;
+}
+
+.faq strong {
+  color: var(--text-color);
+}
+
+footer {
+  padding: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
